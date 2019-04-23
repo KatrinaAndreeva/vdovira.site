@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Онлайн заявка на кредит</title>
+	<link rel="shortcut icon" href="image/favicon2.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+
+	<script src="time.js"></script>
+</head>
+<body>
+<p id="txt"></p>
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<div class="phone">
+			<img src="image/phone.png" alt="" width="40px" height="40px">
+			<p>
+				<a href="mailto:ks_vdovira@ukr.net">ks_vdovira@ukr.net</a> <br>
+				<a href="tel:+380516154471">(05161) 54471</a> <br>
+				<a href="tel:+380968255122">+380968255122</a>
+			</p>
+		</div>
+		<div class="adress">
+			<img src="image/address.png" alt="" width="40px" height="40px" >
+			<p>м. Первомайськ, Миколаївська область <br>
+			вул. Театральна, 10 <br>
+			(приміщення Краєзнавчого музею)
+			</p>
+			
+		</div>
+		<div class="worktime">
+			<img src="image/сalendar.png" alt="" width="40px" height="40px">
+			<p>
+				Пн-Пт <br>
+				9.00-16.00 <br>
+				Сб-Нд вихідний
+			</p>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+<!-- main menu -->
+	<nav>
+	 <div class="wrapper">
+                <label for="menuToggle">Меню</label>
+                <input id="menuToggle" type="checkbox">
+		<ul class="topmenu">
+			<li><a href="index.html">ГОЛОВНА</a>
+			</li>
+			<li><a href="aboutus.html">ПРО НАС</a></li>
+			<li><a href="#" class="down">ЗВІТНІСТЬ</a>
+			<ul class="submenu">
+				<li><a href="2014.html">2014 рік</a></li>
+				<li><a href="2015.html">2015 рік</a></li>
+				<li><a href="2016.html">2016 рік</a></li>
+				<li><a href="2017.html">2017 рік</a></li>	
+			</ul>
+		</li>
+			<li><a href="contactus.html">КОНТАКТИ</a></li>
+			<li><a href="credit.html">ЗАЯВКА НА КРЕДИТ</a></li>
+			<li><a href="products.html">ПРОДУКТИ</a></li>	
+		</ul>
+        </div>
+		
+		<div class="search_head_one">
+			<form>
+				<input type="search" placeholder="Пошук...">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
+		</nav>
+<div class="clearfix"></div>
+<br>
+<h2>Оформлення онлайн заявки на отримання кредиту</h2><br>
+<article><p>У повсякденному житті ми часто стикаємося з необхідністю взяти кредит. Незапланований ремонт машини, великі покупки - причини можуть бути різними.</p>
+<p>Клієнти кредитної спілки "Взаємодовіра" можуть оформити заявку на кредит не виходячи з дому. Все, що Вам потрібно, - заповнити декілька простих форм на сайті.</p>
+<p>Після заповнення заявки наш працівник зв'яжеться з Вами для уточнення деталей.</p>
+<p style="font-size: 13px;">*Оформлення та розгляд заявок відбувається в часи роботи кредитної спілки.</p></article>
+	<div class="contactform">
+		<div class="orderform">
+		<form method="post" action="./mail.php">
+
+		<label for="surname">Прізвище</label>
+		<input name="formsurname" type="text" placeholder="Прізвище" value="" required="required">
+			
+		<label for="name">Ім'я</label>
+		<input name="formname" type="text" placeholder="Ім'я" value="" required="required">
+
+		<label for="lastname">По-батькові</label>
+		<input name="lastname" type="text" placeholder="По-батькові" value="" required="required">
+		
+	
+		<label for="code">Індивідуальний податковий номер</label>
+		<input name="code" type="number" placeholder="Індивідуальний податковий номер" value="" required="required" maxlength="10">
+			
+		<label for="dateOfBirth">Дата народження</label>
+		<input name="dateOfBirth" type="date" placeholder="Дата народження" value="" required="required">
+			
+		<label for="email">Email</label>
+		<input name="formemail" type="email" placeholder="Email" value="" required="required">	
+		
+		<label for="phone">Телефон</label>
+		<input name="formphone" type="number" placeholder="Телефон" value="" required="required">
+			
+		<label for="message">Бажана сума кредиту</label>
+		<input name="formmessage" type="text" placeholder="Повідомлення..." value="">
+
+			
+
+			
+			<input type="submit" name="send" class="submit font_two" value="Надіслати">
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="7f54450ce9"/><input type="hidden" name="_wp_http_refere" value="/trowel/"/>
+		</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+startTime()
+</script>	
+<script src="min.js"></script>
+<div class="developedby"><a href="https://katrine.site" target="_blank">Developed by Katrina</a></div>
+</body>
+</html>
